@@ -8,10 +8,10 @@ from dash import html
 
 def get_database_connection():
     db_config = {
-        "host": "localhost",
+        "host": "containers-us-west-142.railway.app",
         "user": "root",
-        "password": "123456789",
-        "database": "tablero_geohallitians"
+        "password": "KzyfyYRnNlbEhpB82bTe",
+        "database": "railway"
     }
     
     try:
