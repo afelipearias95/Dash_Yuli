@@ -2,7 +2,7 @@
 # Este modulo es para funciones reutilizables del main o dasboard principal
 # ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-import mysql.connector
+#import mysql.connector
 from datetime import datetime
 from dash import html
 
