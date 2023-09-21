@@ -4,8 +4,8 @@ import plotly.graph_objs as go
 import plotly.express as px
 import plotly.io as pio # Importa el tema oscuro de Plotly
 import pytz
-import dash_leaflet 
-import dash_leaflet.express as dlx
+#import dash_leaflet 
+#import dash_leaflet.express as dlx
 from dash import dcc, html
 from datetime import datetime
 from dash.dependencies import Input, Output
