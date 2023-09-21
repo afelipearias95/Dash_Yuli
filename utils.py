@@ -11,7 +11,8 @@ def get_database_connection():
         "host": "containers-us-west-142.railway.app",
         "user": "root",
         "password": "KzyfyYRnNlbEhpB82bTe",
-        "database": "railway"
+        "database": "railway",
+        "port": "5853"
     }
     
     try:
