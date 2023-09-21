@@ -1,5 +1,5 @@
 dash==2.4.0
 dash-leaflet
-mysql==8.0.34
+mysql
 pandas
 gunicorn
