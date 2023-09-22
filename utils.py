@@ -27,7 +27,7 @@ def get_database_connection():
 def obtener_numero_de_pozos(conexion):
     if conexion:
         # Consulta SQL para contar los pozos en la tabla wells_master
-        query_pozos = "SELECT COUNT(DISTINCT UWI) AS total_uwi_unicos FROM tablero_geohallitians.wells_master_updated"
+        query_pozos = "SELECT COUNT(DISTINCT UWI) AS total_uwi_unicos FROM railway.wells_master_updated"
 
         # Ejecuta la consulta
         cursor = conexion.cursor()
